@@ -40,3 +40,28 @@
 .read-the-docs {
   color: #888;
 }
+
+body {
+  background-color: thistle;
+}
+
+.player-card {
+  border-radius: 5px;
+  color: black;
+  border: 5pt groove cornflowerblue;
+  background-color: lightcyan;
+  margin: 15px;
+}
+
+.player-card img {
+  max-width: 300px;
+}
+
+button {
+  margin: 5px;
+}
+
+form {
+  border: 2pt solid white;
+  padding: 15px;
+}
