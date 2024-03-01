@@ -1,8 +1,8 @@
 #root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
+  margin: 0;
+
   text-align: center;
+  min-width: 90vw;
 }
 
 .logo {
@@ -42,7 +42,7 @@
 }
 
 body {
-  background-color: thistle;
+  background-color: rgb(160, 216, 251);
 }
 
 .player-card {
@@ -51,6 +51,7 @@ body {
   border: 5pt groove cornflowerblue;
   background-color: lightcyan;
   margin: 15px;
+  max-width: 350px;
 }
 
 .player-card img {
@@ -64,4 +65,36 @@ button {
 form {
   border: 2pt solid white;
   padding: 15px;
+}
+
+.content {
+  display: grid;
+}
+
+.roster {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.newPlayerForm {
+  max-width: 300px;
+}
+
+.header {
+  display: flex;
+  flex-wrap: nowrap;
+}
+input {
+  margin: 5px;
+}
+
+.navButton {
+  color: white;
+}
+
+h1 {
+  text-shadow: 3px 3px 3px navy;
+  padding: 15px;
+  border: 5pt groove white;
 }
